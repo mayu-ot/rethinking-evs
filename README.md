@@ -65,7 +65,7 @@ For evaluating your own video summaries on SumMe, please use the following forma
 }
 ```
 
-xi=1 when i-th frame is in an output summary, otherwise 1.
+xi=1 when i-th frame is in an output summary, otherwise 0.
 s1, s2, ... sm are indices of frames corresponding to shot boundaries.
 An example is in `data/raw/example.json`.
 To evaluate the summarization results, run `src/summe_eval.py` as
