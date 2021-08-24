@@ -26,8 +26,9 @@ Copy the files in `GT/` to `data/raw/summe/GT/`.
 Follow the steps described in the [TVSum Github page](https://github.com/yalesong/tvsum).
 Copy `ydata-tvsum50.mat` to `data/raw/tvsum/`
 
-Optional: For evaluate video summaries using KTS segmentation, we use KTS segmentation results provided [here](https://github.com/kezhang-cs/Video-Summarization-with-LSTM).
-Download `shot_SumMe.mat` and `shot_TVSum.mat` and copy it to `data/raw/summe(or tvsum)/`.
+~~Optional: For evaluate video summaries using KTS segmentation, we use KTS segmentation results provided [here](https://github.com/kezhang-cs/Video-Summarization-with-LSTM).~~
+~~Download `shot_SumMe.mat` and `shot_TVSum.mat` and copy it to `data/raw/summe(or tvsum)/`.~~
+The data is no longer available. You may find temporal segmentation [here](https://github.com/e-apostolidis/PoR-Summarization-Measure) instead.
 
 Project Organization
 --------------------
